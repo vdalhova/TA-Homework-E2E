@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"trendingBanner_720202\"]/span\"}\n  (Session info: chrome=107.0.5304.107)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0087ACD3+2075859]\n\tOrdinal0 [0x0080EE61+1633889]\n\tOrdinal0 [0x0070B7BD+571325]\n\tOrdinal0 [0x0073AC2F+764975]\n\tOrdinal0 [0x0073AE1B+765467]\n\tOrdinal0 [0x0076D0F2+970994]\n\tOrdinal0 [0x00757364+881508]\n\tOrdinal0 [0x0076B56A+963946]\n\tOrdinal0 [0x00757136+880950]\n\tOrdinal0 [0x0072FEFD+720637]\n\tOrdinal0 [0x00730F3F+724799]\n\tGetHandleVerifier [0x00B2EED2+2769538]\n\tGetHandleVerifier [0x00B20D95+2711877]\n\tGetHandleVerifier [0x0090A03A+521194]\n\tGetHandleVerifier [0x00908DA0+516432]\n\tOrdinal0 [0x0081682C+1665068]\n\tOrdinal0 [0x0081B128+1683752]\n\tOrdinal0 [0x0081B215+1683989]\n\tOrdinal0 [0x00826484+1729668]\n\tBaseThreadInitThunk [0x755FFEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x775C7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x775C7B8E+238]\n"
-}
