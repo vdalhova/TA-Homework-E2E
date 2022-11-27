@@ -1,0 +1,199 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669549889219' stop='1669549895637'>
+    <name>Bootcamp E2E: Search bar</name>
+    <title>Bootcamp E2E: Search bar</title>
+    <test-cases>
+        <test-case start='1669549889221' status='passed' stop='1669549889229'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669549889231' status='passed' stop='1669549892969'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669549889240' status='passed' stop='1669549892967'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='caa59084-fe70-4200-8974-5febc64a34c2-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669549892969' status='passed' stop='1669549895628'>
+            <name>Given The promo banner is closed if it appears</name>
+            <title>Given The promo banner is closed if it appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669549892973' status='passed' stop='1669549893065'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8f3bdcc7-1e0d-44a7-a2ec-5516139bd5de-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='b8b838e5-78fd-426b-821f-4d61c21e9daf-attachment.json' type='application/json' size='1048'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669549893081' status='passed' stop='1669549893263'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='37fe02f9-4361-4597-a10e-7542e31ced4a-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='f3bca763-6f46-4a11-913a-6f51ef26ea1d-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669549893584' status='passed' stop='1669549894098'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7a1d29d4-5e15-4654-81a2-db215fa85e30-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='35d0467c-76c1-44a2-b1b7-cdeec51071ab-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669549894105' status='passed' stop='1669549894188'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='702d489e-48b4-4841-8b9e-aeb6757ded28-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='7cab7de5-d140-4053-96ad-70d37141cf51-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669549894592' status='passed' stop='1669549894992'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c575fe69-9dba-4ae8-9c86-bb240e2a8aed-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='b8c75ed8-eafc-44ce-84af-cfe9c11d041c-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669549895002' status='passed' stop='1669549895194'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3d0d80c4-26bd-4329-be41-e63bda0124ef-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='5c755561-cc1f-4139-b592-0f9e7b9274a8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669549895208' status='passed' stop='1669549895627'>
+                    <name>POST /session/:sessionId/element/115c27df-eed6-4676-8430-db38c1ecddb8/click</name>
+                    <title>POST /session/:sessionId/element/115c27df-eed6-4676-8430-db38c1ecddb8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669549895628' status='broken' stop='1669549895630'>
+            <name>When I entry the word "Windows" in the search bar (top middle)</name>
+            <title>When I entry the word "Windows" in the search bar (top middle)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I entry the word "Windows" in the search bar (top middle)" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I entry the word "Windows" in the search bar (top middle)" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\QAA bootcamp\TA-Homework-E2E\features\bootcampE2E.feature):1:1
+                	at Scenario(Search bar):3:3
+                	at Step(I entry the word "Windows" in the search bar (top middle)):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669549895631' status='broken' stop='1669549895631'>
+            <name>And I click the search</name>
+            <title>And I click the search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click the search" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click the search" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\QAA bootcamp\TA-Homework-E2E\features\bootcampE2E.feature):1:1
+                	at Scenario(Search bar):3:3
+                	at Step(I click the search):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669549895632' status='broken' stop='1669549895633'>
+            <name>Then I should check that at least one item appers</name>
+            <title>Then I should check that at least one item appers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should check that at least one item appers" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should check that at least one item appers" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\QAA bootcamp\TA-Homework-E2E\features\bootcampE2E.feature):1:1
+                	at Scenario(Search bar):3:3
+                	at Step(I should check that at least one item appers):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669549895633' status='passed' stop='1669549895635'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

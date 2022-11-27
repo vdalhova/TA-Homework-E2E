@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div[3]/section/div/div/div[2]/div[1]/div/div/div[2]/div[1]/div[2]/div[2]\"}\n  (Session info: chrome=107.0.5304.107)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00D0ACD3+2075859]\n\tOrdinal0 [0x00C9EE61+1633889]\n\tOrdinal0 [0x00B9B7BD+571325]\n\tOrdinal0 [0x00BCAC2F+764975]\n\tOrdinal0 [0x00BCAE1B+765467]\n\tOrdinal0 [0x00BFD0F2+970994]\n\tOrdinal0 [0x00BE7364+881508]\n\tOrdinal0 [0x00BFB56A+963946]\n\tOrdinal0 [0x00BE7136+880950]\n\tOrdinal0 [0x00BBFEFD+720637]\n\tOrdinal0 [0x00BC0F3F+724799]\n\tGetHandleVerifier [0x00FBEED2+2769538]\n\tGetHandleVerifier [0x00FB0D95+2711877]\n\tGetHandleVerifier [0x00D9A03A+521194]\n\tGetHandleVerifier [0x00D98DA0+516432]\n\tOrdinal0 [0x00CA682C+1665068]\n\tOrdinal0 [0x00CAB128+1683752]\n\tOrdinal0 [0x00CAB215+1683989]\n\tOrdinal0 [0x00CB6484+1729668]\n\tBaseThreadInitThunk [0x755FFEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x775C7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x775C7B8E+238]\n"
+}
