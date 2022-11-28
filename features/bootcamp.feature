@@ -1,16 +1,22 @@
-Feature: Bootcamp E2E
+Feature: E2E tests for the "Newegg" Internet store
 
   Background:
-    Given I am on the home page
+    Given The main page is opened
     And The promo banner is closed if it appears
 
-  Scenario:  Search bar
-    When I enter the word "Windows" in the search bar
-    And I click the search
-    Then I should check that at least one item appears
+  Scenario Outline:  As a user, I can search <item> using the search bar
+    When I type "<item>" in the search bar
+    And I click the search button
+    Then I see that at least one "<item>" appears on the page
 
-  Scenario:  Internet shop logo button
-    When I open Today's Best Deals tab
-    And I click on the Internet shop logo
-    Then I should check that the main page opened
+    Examples:
+      | item      |
+      | grill pan |
+      | kettle    |
+      | microwave |
+
+  Scenario: As a user, I can open the main page by clicking on the logo of the Internet store
+    When I click on the Today's Best Deals tab
+    And I click on the logo of the Internet store
+    Then I'm on the main page
 
