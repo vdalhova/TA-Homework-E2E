@@ -13,4 +13,4 @@ In order for the tests to be executed it is necessary to go to the project (its 
 
 and then:
 
-`yarn wdio`
+`yarn test`

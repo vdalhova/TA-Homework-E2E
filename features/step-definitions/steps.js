@@ -17,7 +17,7 @@ Given("The promo banner is closed if it appears", async () => {
     }
 });
 
-When("I entry the word {string} in the search bar", async (word) => {
+When("I enter the word {string} in the search bar", async (word) => {
     const searchForm = await $('.header2021-search-box > input');
     await searchForm.click();
     await searchForm.addValue(word);
@@ -29,7 +29,7 @@ When("I click the search", async () => {
     await searchButton.click();
 });
 
-Then("I should check that at least one item appers", async () => {
+Then("I should check that at least one item appears", async () => {
     const items = await $('.item-cells-wrap > .item-cell');
     await expect(items).toBeExisting();
 });

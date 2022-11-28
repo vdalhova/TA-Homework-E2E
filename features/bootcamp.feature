@@ -5,9 +5,9 @@ Feature: Bootcamp E2E
     And The promo banner is closed if it appears
 
   Scenario:  Search bar
-    When I entry the word "Windows" in the search bar
+    When I enter the word "Windows" in the search bar
     And I click the search
-    Then I should check that at least one item appers
+    Then I should check that at least one item appears
 
   Scenario:  Internet shop logo button
     When I open Today's Best Deals tab
