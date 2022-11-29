@@ -4,7 +4,6 @@ const homePage = 'https://www.newegg.com/';
 
 Given("The main page is opened", async () => {
     await browser.url(homePage);
-
 });
 
 Given("The promo banner is closed if it appears", async () => {
@@ -23,7 +22,6 @@ When("I type {string} in the search bar", async (word) => {
     await searchForm.addValue(word);
 });
 
-
 When("I click the search button", async () => {
     const searchButton = await $('.header2021-search-button > button');
     await searchButton.click();
@@ -33,7 +31,6 @@ Then("I see that at least one {string} appears on the page", async (_) => {
     const items = await $('.item-cells-wrap > .item-cell');
     await expect(items).toBeExisting();
 });
-
 
 When("I click on the Today's Best Deals tab", async () => {
     const bestDealsTab = await $('#trendingBanner_720202 > span');
