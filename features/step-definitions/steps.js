@@ -27,9 +27,9 @@ When("I click the search button", async () => {
     await searchButton.click();
 });
 
-Then("I see that at least one {string} appears on the page", async (_) => {
-    const items = await $('.item-cells-wrap > .item-cell');
-    await expect(items).toBeExisting();
+Then("I see that at least one {string} appears on the page", async (product) => {
+    const item = await $('.list-wrap > div:nth-child(3) > .item-cell:first-child > .item-container > .item-info > .item-title');
+    await expect(item).toHaveTitleContaining(product);
 });
 
 When("I click on the Today's Best Deals tab", async () => {
